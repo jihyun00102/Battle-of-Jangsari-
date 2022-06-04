@@ -1,0 +1,41 @@
+#epilogue{}
+#epilogue .wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+#epilogue .wrap .bx{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+#epilogue .wrap .bx img{
+    width: calc(40% - 20px);
+    height: 240px;
+    margin: 0 10px;
+}
+#epilogue .wrap .bx .text{
+    width: calc(60% - 20px);
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#epilogue .wrap .bx:nth-child(2){
+    display: flex;
+    flex-direction: row-reverse;
+}
+#epilogue .wrap .bx .text p{
+    font-size: 18px;
+    color: #1f232f;
+    text-align: center;
+    width: 462px;
+}
+#epilogue .wrap .last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#epilogue .wrap .last img{
+    height: 360px;
+}
