@@ -144,6 +144,7 @@ a{text-decoration: none;}
     #header{height: 60vh;}
     #header .dark_bg .main_title{top: 55%;}
     #header nav .frame{width: 100%;}
+    
 }
 @media (max-width:767px){
     #header{height: 50vh;}

@@ -39,3 +39,23 @@
 #epilogue .wrap .last img{
     height: 360px;
 }
+
+@media (max-width:1199px){
+    #epilogue .wrap .bx img{
+        width: calc(30%);
+    }
+}
+@media (max-width:959px){
+    #epilogue .wrap{
+        width: 100%;
+    }
+    #epilogue .wrap .bx img{
+        height: auto;
+    }
+    #epilogue .wrap .bx .txt{
+        width: calc(70%);
+    }
+    #epilogue .wrap .bx .text p{
+        font-size: 14px;
+    }
+}

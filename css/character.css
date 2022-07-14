@@ -41,3 +41,28 @@
     font-weight: normal;
     word-break: keep-all;
 }
+@media (max-width:959px){
+    #character .wrap{
+        width: 100%;
+    }
+    #character .wrap .box p{
+        font-size: 14px;
+    }
+    #character .wrap .box .txt .cont h3{
+        font-size: 18px;
+    }
+}
+@media (max-width:767px){
+    #character .wrap .box .img{
+        width: 200px; height: 200px;
+    }
+    #character .wrap .box .txt{
+        width: calc(100% - 200px);
+    }
+    #character .wrap .box p{
+        font-size: 12px;
+    }
+    #character .wrap .box .txt .cont h3{
+        font-size: 14px;
+    }
+}
